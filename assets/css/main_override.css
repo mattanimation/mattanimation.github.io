@@ -1,0 +1,39 @@
+body{
+	background-color: black;
+	color: #eee;
+}
+
+#consoleInput{
+	border: none;
+	display: inline-block;
+	width: 100%;
+	height: 1.75em;
+	margin: 0px auto; 
+}
+
+.console-line{
+	margin: 0px;
+	padding: 0px;
+}
+
+.console-input{
+	width: 100%;
+	display: inline-block;
+}
+
+label {
+	margin: 0px;
+	width: 10px;
+}
+
+.Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column
+{
+    display: table-cell;
+}
