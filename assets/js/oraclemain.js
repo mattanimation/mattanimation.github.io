@@ -39,12 +39,13 @@ $(document).ready(function(){
 	var talkAboutCity = false;
 	var talkAboutState = false;
 	var uDetails;
+	/*
 	$.getJSON("https://ipinfo.io/json", function(data) {
 	    console.log(data);
 	    uDetails = data;
 
 	});
-
+	*/
 
 	//use web audio api to change the voice and add effects and get sample data
 	audioCtx = new (window.AudioContext || window.webkitAudioContext)();
