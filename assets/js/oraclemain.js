@@ -112,7 +112,7 @@ $(document).ready(function(){
 		  method: 'GET',
 		  success: function(response) {
 		      console.log("success!", response);
-		      botReturn('{botsay:"funny ha ha"}');
+		      botReturn('{botSay:"funny ha ha"}');
 		  }
 		});
 		*/
@@ -126,7 +126,7 @@ $(document).ready(function(){
     console.log(data);
 		var jData = JSON.parse(String(data));
 		console.log(jData);
-		phrase = String(jData.botsay);
+		phrase = String(jData.botSay);
 		if(phrase == "")
 		{
 			if(!talkAboutCity)
