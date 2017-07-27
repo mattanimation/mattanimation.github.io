@@ -154,7 +154,7 @@ $(document).ready(function(){
 				loaded = false;
 				clearInterval(lc);
 			}
-		});
+		},100);
 
 
 		speak(phrase, opts);
@@ -186,6 +186,7 @@ $(document).ready(function(){
 
 
 		var aud = new Audio();
+		if(aud == null){ return; } 
 		aud.src = a.src;//;
 		dncr.load(aud);
 
