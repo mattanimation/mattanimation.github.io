@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!--
+   _____   __                       .___        __                              __  .__              
+  /  _  \_/  |_  _____   ____  _____|   | _____/  |_  ________________    _____/  |_|__|__  __ ____  
+ /  /_\  \   __\/     \ /  _ \/  ___/   |/    \   __\/ __ \_  __ \__  \ _/ ___\   __\  \  \/ // __ \ 
+/    |    \  | |  Y Y  (  <_> )___ \|   |   |  \  | \  ___/|  | \// __ \\  \___|  | |  |\   /\  ___/ 
+\____|__  /__| |__|_|  /\____/____  >___|___|  /__|  \___  >__|  (____  /\___  >__| |__| \_/  \___  >
+        \/           \/           \/         \/          \/           \/     \/                   \/
+-->
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <title>The Oracle</title>
+	    <meta name="description" content="The Oracle is an experiment that uses WebGL, speak.js, dancer.js a chat bot, and music from Soundcloud.">
+	    <meta name="viewport" content="width=device-width">
+        <meta property="og:image" content="img/oracle_thumb.png"/> 
+
+	    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	    <link rel="stylesheet" href="css/main.css">
+        <link rel="image_src" href="img/oracle_thumb.png" />
+	</head>
+    <body>
+         <img style="display:none;" src="img/oracle_thumb.png" />
+    	<!-- webgl bg -->
+    	<div id="env" style="position: absolute; left:0px; top:0px"></div>
+       
+       	<!-- the bar to communcate with -->
+    	<div class="converse-box">
+    		<p id="reply">Awating Input...</p>
+    		<input type="textarea" id="txt"/>
+    		<div class="powered-by">
+    			<p><b>Powered by </b> <a href="http://www.threejs.org/" target="_blank">threejs</a> | <a href="https://github.com/mattytemple/speak-js" target="_blank">speakjs</a> | <a href="http://jsantell.github.io/dancer.js/" target="_blank">dancerjs</a> | <a href="http://blog.program-o.com/" target="_blank">program-o</a> | <a href="http://www.soundcloud.com" target="_blank">soundcloud</a> |  <b>Created by </b> <a href="http://www.atmosinteractive.com">Atmos Interactive</a> </p>
+    		</div>
+    	</div>
+    	<!-- music track info -->
+    	<div class="sc-box">
+            <div class="pause-play"></div>
+			<a id="scLink" href="">
+    			<div class="col_1">
+	    			<h4 id="scTitle"></h4>
+	    			<p id="scTrack"></p>
+	    		</div>
+	    		<div class="col_1">
+	    			<img id="scImg" src=""/>
+	    		</div>
+    		</a>
+		</div>
+    	<!-- preload cover -->
+    	<div class="cover">
+    		<div class="center">
+                <button id="summonBtn">Summon The Oracle</button>
+    		</div>
+    	</div>
+    	
+    	<!-- the audio element to be used by speakjs -->
+    	<div id="audio"></div>
+
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
+        <script type="text/javascript" src="js/shaders/FresnelShader.js"></script>
+        <script type="text/javascript" src="js/shaders/CopyShader.js"></script>
+        <script type="text/javascript" src="js/shaders/BokehShader.js"></script>
+        <script type="text/javascript" src="js/shaders/ConvolutionShader.js"></script>
+        <script type="text/javascript" src="js/shaders/SSAOShader.js"></script>
+        <script type="text/javascript" src="js/shaders/RGBShiftShader.js"></script>
+        <script type="text/javascript" src="js/shaders/DigitalGlitch.js"></script>
+        <script type="text/javascript" src="js/shaders/SkyShader.js"></script>
+
+        <script type="text/javascript" src="js/loaders/OBJLoader.js"></script>
+
+        <script type="text/javascript" src="js/postprocessing/EffectComposer.js"></script>
+        <script type="text/javascript" src="js/postprocessing/RenderPass.js"></script>
+        <script type="text/javascript" src="js/postprocessing/ShaderPass.js"></script>
+        <script type="text/javascript" src="js/postprocessing/MaskPass.js"></script>
+        <script type="text/javascript" src="js/postprocessing/BloomPass.js"></script>
+        <script type="text/javascript" src="js/postprocessing/BokehPass.js"></script>
+        <script type="text/javascript" src="js/postprocessing/GlitchPass.js"></script>
+
+        <script type="text/javascript" src="js/libs/Detector.js"></script>
+        <script type="text/javascript" src="js/libs/stats.min.js"></script>
+        <script type="text/javascript" src="js/controls/OrbitControls.js"></script>
+        <script type="text/javascript" src="js/utils/KeyboardState.js"></script>
+        <script type="text/javascript" src="js/libs/tween.min.js"></script>
+
+        <script type="text/javascript" src="js/utils/THREEx.FullScreen.js"></script>
+        <script type="text/javascript" src="js/utils/THREEx.WindowResize.js"></script>
+
+        <script type="text/javascript" src="js/libs/dat.gui.min.js"></script>
+        <script src="http://connect.soundcloud.com/sdk.js"></script>
+        <script type="text/javascript" src="js/speakClient.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/oracle.js"></script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-55314140-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+    </body>
+</html>

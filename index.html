@@ -1,14 +1,20 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
 	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Matt Murray</title>
-		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		 <meta name="description" content="The Oracle is an experiment that uses WebGL, speak.js, dancer.js a chat bot, and music from Soundcloud.">
+        <meta property="og:image" content="assets/img/oracle_thumb.png"/> 
 
 		<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css"> -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/main_override.css" />
+		<link rel="stylesheet" href="assets/css/oracle.css" />
+
+		<link rel="image_src" href="assets/img/oracle_thumb.png" />
 	</head>
 	<body>
 
@@ -24,6 +30,25 @@
 			<div id="consoleSpace"></div>
 			
 			<div class="console-input Row"><label for="consoleInput" class="Column">></label><input type="text" id="consoleInput" class="Column"></input><span id="cursorSpot" class="Column">_</span></div>
+		</section>
+
+		<section id="oracle">
+
+			<img style="display:none;" src="assets/img/oracle_thumb.png" />
+	    	<!-- webgl bg -->
+	    	<div id="env" style="position: absolute; left:0px; top:0px"></div>
+	       
+	       	<!-- the bar to communcate with -->
+	    	<div class="converse-box">
+	    		<p id="reply">Awating Input...</p>
+	    		<input type="textarea" id="txt"/>
+	    		<div class="powered-by">
+	    			<p><b>Powered by </b> <a href="http://www.threejs.org/" target="_blank">threejs</a> | <a href="https://github.com/mattytemple/speak-js" target="_blank">speakjs</a> | <a href="http://jsantell.github.io/dancer.js/" target="_blank">dancerjs</a> | <a href="http://blog.program-o.com/" target="_blank">program-o</a> | <a href="http://www.soundcloud.com" target="_blank">soundcloud</a> |  <b>Created by </b> <a href="http://www.atmosinteractive.com">Atmos Interactive</a> </p>
+	    		</div>
+	    	</div>
+
+			<!-- the audio element to be used by speakjs -->
+    		<div id="audio"></div>
 		</section>
 
 		<!-- Footer -->
@@ -46,6 +71,44 @@
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/console.js"></script>
+
+		<!-- oracle scripts -->
+        <script type="text/javascript" src="assets/js/plugins.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/FresnelShader.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/CopyShader.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/BokehShader.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/ConvolutionShader.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/SSAOShader.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/RGBShiftShader.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/DigitalGlitch.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/shaders/SkyShader.js"></script>
+
+        <script type="text/javascript" src="assets/js/threejs/loaders/OBJLoader.js"></script>
+
+        <script type="text/javascript" src="assets/js/threejs/postprocessing/EffectComposer.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/postprocessing/RenderPass.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/postprocessing/ShaderPass.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/postprocessing/MaskPass.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/postprocessing/BloomPass.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/postprocessing/BokehPass.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/postprocessing/GlitchPass.js"></script>
+
+        <script type="text/javascript" src="assets/js/threejs/libs/Detector.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/libs/stats.min.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/controls/OrbitControls.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/utils/KeyboardState.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/libs/tween.min.js"></script>
+
+        <script type="text/javascript" src="assets/js/threejs/utils/THREEx.FullScreen.js"></script>
+        <script type="text/javascript" src="assets/js/threejs/utils/THREEx.WindowResize.js"></script>
+
+        <script type="text/javascript" src="assets/js/threejs/libs/dat.gui.min.js"></script>
+        <!-- <script src="http://connect.soundcloud.com/sdk.js"></script>-->
+        <script type="text/javascript" src="assets/js/speakClient.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/oraclemain.js"></script>
+        <script type="text/javascript" src="assets/js/oracle.js"></script>
 
 	</body>
 </html>
