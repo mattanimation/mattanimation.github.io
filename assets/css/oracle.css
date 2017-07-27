@@ -2,7 +2,6 @@
  Boilerplate
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -21,7 +20,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Hack", sans-serif;
     background-color: #eee;
 
     -webkit-transition: all 0.4s ease-in-out;
