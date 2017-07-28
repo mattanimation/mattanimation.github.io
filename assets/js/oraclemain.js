@@ -52,12 +52,12 @@ $(document).ready(function(){
 	dncr = new Dancer();
 
 
-	$('body, html').keypress(function(evt){
+	t.keypress(function(evt){
 		if(evt.keyCode == 13)
 		{
 			talk();
 		}
-	})
+	});
 
 	function talk()
 	{

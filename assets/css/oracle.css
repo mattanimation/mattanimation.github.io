@@ -234,10 +234,10 @@ input{
     font-size: 0.8em;
     padding: 0px 60px;
 }
-.powered-by a{
+
+.powered-by .pink{
     color: rgb(255, 0, 122);
 }
-
 
 /* ==========================================================================
    Helper classes

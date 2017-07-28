@@ -3,6 +3,13 @@ body{
 	color: #eee;
 }
 
+#console{
+	position: fixed;
+	top:0px;
+	background-color: #111;
+	width: 100%;
+}
+
 #consoleInput{
 	border: none;
 	display: inline-block;
@@ -24,6 +31,13 @@ body{
 label {
 	margin: 0px;
 	width: 10px;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
 }
 
 .Row

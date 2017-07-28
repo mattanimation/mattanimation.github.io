@@ -2,12 +2,14 @@
 $(window).ready(function(){
 	console.log("console loaded....");
 
+	var theConsole = $('#console');
 	var consoleInput = $('#consoleInput');
 	var consoleSpace = $('#consoleSpace');
 	var cursorSpot = $('#cursorSpot');
 	var latestInput = "";
 	var lastCmd = 0;
 	var isTyping = false;
+	var consoleActive = false;
 
 	var cmdQueue = [];
 
@@ -132,14 +134,31 @@ $(window).ready(function(){
 		}
 	}
 	
+	//show hide console
+	$(window).on('keydown', function(evt){
+		//` pressed
+		if(evt.keyCode == 192){
+			consoleActive = !consoleActive;
+			if(consoleActive){
+				//show
+				theConsole.addClass('show').removeClass('hide');
+			}
+			else{
+				//hide
+				theConsole.addClass('hide').removeClass('show');
+			}
+		}
+	});
 
 	consoleInput.on('keydown', function(){
+		if(!consoleActive){ return;}
+
 		latestInput = consoleInput.val();
 		isTyping = true;
-
 	});
 
 	consoleInput.on('keyup', function(evt){
+		if(!consoleActive){return;}
 		latestInput = consoleInput.val();
 		console.log(evt.keyCode);
 		if(cmdQueue.length > 0){

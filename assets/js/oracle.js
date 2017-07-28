@@ -53,13 +53,6 @@ var mountains, sky;
 init();
 animate();
 
-$('#summonBtn').click(function(){
-	//hide cover
-	playMusic();
-	$('.cover').css({opacity:0,height:0});
-
-});
-
 
 
 // FUNCTIONS
