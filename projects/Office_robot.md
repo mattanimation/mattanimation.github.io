@@ -7,7 +7,7 @@ post-it notes for a conference room, or moving small packages, while trival can
 be eliminated with a minimal amount of effort.
 
 ## Solution
-A small robot office assistance with mobile manipulator
+A small robot office assistance with mobile manipulator.
 
 ## Technologies
 * Robotics (Kobuki base, WidowXL arm)
@@ -23,7 +23,9 @@ A small robot office assistance with mobile manipulator
 * Matt Murray
 
 ## Contributions
-* assembled robotic hardware
+* assembled / customized robotic hardware
+* modified based to use mobile manipulator arm
+* wrote new ros-web modules for RPLidar viz for Euclid
 
 ## References
-* [video](https://www.vimeo.com)
+* [])

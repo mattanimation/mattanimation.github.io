@@ -25,4 +25,4 @@ Created a small ble device with imu to attach to a wheelchair with a heart rate 
 
 ## References
 * [Patent]()
-* [Video](https://vimeo.com/158524278)
+* [Video](https://vimeo.com/160133503)

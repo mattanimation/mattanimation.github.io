@@ -14,6 +14,7 @@ Created a robotic shopping cart that can follow a person and allow them to gathe
 
 ## Programming Languages
 C# (Windows App)
+C (robotic base)
 
 ## Team
 * Matt Murray
@@ -27,4 +28,4 @@ C# (Windows App)
     * item scanning
 
 ## References
-* [video](https://www.vimeo.com)
+* [video](https://www.youtube.com/watch?v=hy5K0ZWr_ro)

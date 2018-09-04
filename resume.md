@@ -58,6 +58,8 @@ _Austin, TX 78749_
 * iCannesDance
     * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/3D_scanner_robot.md)
     * [Video](https://vimeo.com/169861040)
+* Office Assitant Robot
+    * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Office_robot.md)
 
 
 
