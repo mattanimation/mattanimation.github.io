@@ -8,7 +8,7 @@ Created a mobile application that allocated crypto-currency into a users
 "wallet" after each exercise session
 
 ## Technologies
-* Bicoin
+* Bitcoin
 * Mobile devices
 * Fitness Wearables
 

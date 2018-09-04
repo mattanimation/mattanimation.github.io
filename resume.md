@@ -1,5 +1,9 @@
 # Resume of Matthew Murray
 
+## Summary
+> A problem solver with a 10+ years of experience in developing technology and experiences in the domains of (but not limited to): custom software (mobile applications, full-stack dev), micro-electronics, computer vision, natural langauge processing, automatic speech recognition, robotics and machine learning from a creative yet pragmatic approach.
+
+
 ### Contact
 **Matthew Murray**  
 _7606 Kiva Drive_  
@@ -14,10 +18,6 @@ _Austin, TX 78749_
 | [Vimeo](https://vimeo.com/mattanimation) | [Instagram](https://www.instagram.com/mattanimation/) |
 
 
-
-## Summary
-> A problem solver with a 10+ years of experience in developing technology and experiences in the domains of (but not limited to): custom software (mobile applications, full-stack dev), micro-electronics, computer vision, natural langauge processing, automatic speech recognition, robotics and machine learning from a creative yet pragmatic approach.
-
 -----
 
 ## Experience
@@ -28,8 +28,10 @@ _Austin, TX 78749_
 > the spaces of computer vision, natural language processing, robotics, and more. Internal explorations  
 > of further developing applications utlizing distrubuted technologies such as blockchain. Internal development of patents.  
 
-**Projects:**  
-* [Flanagan](https://www.adweek.com/digital/why-tgi-fridays-thinks-of-itself-as-a-technology-company-that-sells-beer-and-ribs/)
+**Public Projects:**  
+* Flanagan
+    * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Flanagan.md)
+    * [Media](https://www.adweek.com/digital/why-tgi-fridays-thinks-of-itself-as-a-technology-company-that-sells-beer-and-ribs/)
 
 
 
@@ -46,10 +48,16 @@ _Austin, TX 78749_
 **October 2016 - September 2017** _(1 year)_  
 > Create hardware and software prototypes that have impact and provide new experiences.  
 
-**Projects:**  
-* [PartyBot](https://www.youtube.com/watch?v=rH_B9LGSUcU)
-* [Invoc](https://www.fastcompany.com/product/invoc)
-* [iCannes Dance](https://vimeo.com/169861040)
+**Public Projects:**  
+* PartyBot
+    * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Party_AI.md)
+    * [Video](https://www.youtube.com/watch?v=rH_B9LGSUcU)
+* Invoc
+    * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Invoc.md)
+    * [Media](https://www.fastcompany.com/product/invoc)
+* iCannesDance
+    * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/3D_scanner_robot.md)
+    * [Video](https://vimeo.com/169861040)
 
 
 
@@ -58,14 +66,32 @@ _Austin, TX 78749_
 > Work with emerging technologies to create interactive and engaging user experience that have  
 > "presence" on and offline. Use code and hardware to create art and dynamic installations.  
 
-**Projects:**  
-* [Wheelchair Tracker](https://www.thedrum.com/news/2016/10/26/accenture-why-it-developing-freewheel-the-first-fitness-tracker-wheelchair-users)
-* [SXSW 2016 Projects](https://www.wareable.com/wearable-tech/inside-chaotic-moons-vision-future-invisible-ui-2454)
-* [Orchard](https://www.engadget.com/2015/03/18/orchard-inflatable-huggable-trees/)
-* [Smartest Cart](https://www.youtube.com/watch?v=hy5K0ZWr_ro)
-* [Sentiri](https://www.engadget.com/2015/11/20/headband-detects-obstacles-and-guides-the-blind-haptically/)
-* [Spraypaint Drone](https://techcrunch.com/2015/03/17/drones-that-shoot-fire-silly-string-and-more-with-chaotic-moon/)
-* [FitCoin](https://vimeo.com/121944598)
+**Public Projects:**  
+* Wheelchair Fitness Tracker
+    * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Wheelchair_fitness_tracker.md)
+    * [Media](https://www.thedrum.com/news/2016/10/26/accenture-why-it-developing-freewheel-the-first-fitness-tracker-wheelchair-users)
+* SXSW 2016
+    * [Media](https://www.wareable.com/wearable-tech/inside-chaotic-moons-vision-future-invisible-ui-2454)
+    * Sentiri 
+        * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Sentiri.md)
+        * [Media](https://www.engadget.com/2015/11/20/headband-detects-obstacles-and-guides-the-blind-haptically/)
+    * Notifly
+        * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Notifly.md)
+        * [Video](https://vimeo.com/158524278)
+* Smartest Cart
+    * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Smart_cart.md)
+    * [BBC Video](https://www.youtube.com/watch?v=hy5K0ZWr_ro)
+* SXSW 2015
+    * Spraypaint Drone
+        * [Details]()
+        * [Media](https://techcrunch.com/2015/03/17/drones-that-shoot-fire-silly-string-and-more-with-chaotic-moon/)
+    * Fitcoin
+        * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Fitcoin.md)
+        * [Video](https://vimeo.com/121944598)
+    * Orchard
+        * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Orchard.md)
+        * [Media](https://www.engadget.com/2015/03/18/orchard-inflatable-huggable-trees/)
+        
 
 
 
