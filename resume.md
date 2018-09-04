@@ -82,7 +82,7 @@ _Austin, TX 78749_
     * [Details](https://github.com/mattanimation/mattanimation.github.io/blob/master/projects/Smart_cart.md)
     * [BBC Video](https://www.youtube.com/watch?v=hy5K0ZWr_ro)
 * SXSW 2015
-    * Spraypaint Drone
+    * Spraypainting Drone
         * [Details]()
         * [Media](https://techcrunch.com/2015/03/17/drones-that-shoot-fire-silly-string-and-more-with-chaotic-moon/)
     * Fitcoin
@@ -182,19 +182,20 @@ For a more comprehensive list of skills, look here see below
 * Javascript
 * Swift
 * Objective-C
-* C++
 * Java
+* C/C++
 * Go
 
 ### Mobile Platforms
 * iOS - xCode
 * Android - Android Studio
 
-### Software Repositories 
+### Software Code Management 
 * Github - git
 * Bitbucket - git
+* Gitlab - git
 
-### Software Platforms
+### Software Experience
 * Game Engines
     * Unity
     * UE4
@@ -207,8 +208,25 @@ For a more comprehensive list of skills, look here see below
     * PyTorch
     * Keras
     * OpenZoo, Mujocu
+    * Jupyter Notebook
+* Web
+    * Standard tools (html, css, etc.)
+    * React _(front-end)_
+    * Nodejs _(back-end)_
+    * API Star _(back-end)_
+* Databases
+    * OrientDB
+    * ArangoDB
+    * PostgreSQL
+    * MySQL
+    * CassandraDB
+    * GraphQL _(this is a layer on top of any of the above)_
+* Devops
+    * Rancher / Kubernetes
+    * Docker for containers
 
-### Hardware Experiences
+
+### Hardware Experience
 * Devices
     * Depth Sensors
         * Intel RealSense
@@ -216,7 +234,7 @@ For a more comprehensive list of skills, look here see below
         * Kinect
         * Structure
     * Lidar
-        * 
+        * RP lidar A1, A2
     * Robotic Platforms
         * TurtleBot ([Kobuki Base](https://store10227366.ecwid.com/TurtleBot2-YMR-K01-W2-p72589066), [iCreate Base](https://www.irobot.com/About-iRobot/STEM/Create-2.aspx))
         * Arlo base [link](https://www.parallax.com/product/arlo-robotic-platform-system)
