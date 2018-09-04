@@ -224,6 +224,16 @@ For a more comprehensive list of skills, look here see below
 * Devops
     * Rancher / Kubernetes
     * Docker for containers
+* Creative
+    * adobe creative suite
+* Cad / Modeling
+    * onShape
+    * Autodesk Maya
+* PCB
+    * CircutMaker
+    * KiCad
+    * Eagle
+
 
 
 ### Hardware Experience
