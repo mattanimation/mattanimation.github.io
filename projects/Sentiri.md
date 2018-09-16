@@ -49,3 +49,8 @@ Phase 2:
 ## References
 * [Media](https://www.engadget.com/2015/11/20/headband-detects-obstacles-and-guides-the-blind-haptically/)
 * [Video](https://vimeo.com/144912610)
+
+## Images
+![Sentiri 1](https://instagram.fmkc1-1.fna.fbcdn.net/vp/40f662179ce4033da32768f3d5016e3c/5C1E02F2/t51.2885-15/e35/10369505_714486062021207_1244706825_n.jpg)
+
+![Sentri 2](https://instagram.fmkc1-1.fna.fbcdn.net/vp/f6add10224202994142cb0d062603395/5C39D949/t51.2885-15/e35/s1080x1080/17076868_1383445391715453_6039351014681739264_n.jpg)

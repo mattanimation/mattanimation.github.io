@@ -59,3 +59,11 @@ set custom dances, or have "dance offs" with other selected scanned avatars. Imp
 ## References
 * [DoppleDancer](https://vimeo.com/158524764)
 * [iCannes Dance](https://vimeo.com/169861040)
+
+## Images
+
+![In the Lab](https://instagram.fmkc1-1.fna.fbcdn.net/vp/255caa821336be310b549f1e5a5f3c2a/5C1F871D/t51.2885-15/e35/13402167_1737762063174848_1409334031_n.jpg)
+
+![In Cannes](https://instagram.fmkc1-1.fna.fbcdn.net/vp/69f88b22d8a18dba016713579320fa9d/5C206091/t51.2885-15/e35/13423608_1041654722538213_1368896990_n.jpg)
+
+![Guts](https://instagram.fmkc1-1.fna.fbcdn.net/vp/bc7e1eaef9f7cbf5cf494c9be563929c/5C3BE16D/t51.2885-15/e35/13118201_1020417814719756_113173366_n.jpg)
