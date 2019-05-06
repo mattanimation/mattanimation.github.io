@@ -241,17 +241,21 @@ For a more comprehensive list of skills, look here see below
 ### Hardware Experience
 * Devices
     * Depth Sensors
-        * Intel RealSense
+        * Intel RealSense (R200, ZR300, D435)
         * ZED cam
         * Kinect
         * Structure
     * Lidar
         * RP lidar A1, A2
+        * Velodyne Puck
     * Robotic Platforms
         * TurtleBot ([Kobuki Base](https://store10227366.ecwid.com/TurtleBot2-YMR-K01-W2-p72589066), [iCreate Base](https://www.irobot.com/About-iRobot/STEM/Create-2.aspx))
         * Arlo base [link](https://www.parallax.com/product/arlo-robotic-platform-system)
         * Pepper
         * MistyI / beta ([link](https://www.mistyrobotics.com/))
+        * Fetch Robotics Freight
+        * Kinova Robotics Jaco Arm
+        * Robotiq Gripper
     * VR,AR,MR
         * Hololens
         * Bridge Engine
